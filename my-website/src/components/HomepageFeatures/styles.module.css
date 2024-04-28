@@ -2,9 +2,10 @@
   display: flex;
   flex-flow: row;
   align-items: center;
-  justify-content: space-between;
-  padding: 3rem 0;
+  justify-content: space-around;
+  padding: 3rem 3vw;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .flip-card-front {
