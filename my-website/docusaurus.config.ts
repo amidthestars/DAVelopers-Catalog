@@ -60,8 +60,8 @@ const config: Config = {
     navbar: {
       title: 'The DAVeloper’s Catalog',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'an and gate',
+        src: 'img/and.png',
       },
       // items: [
       //   {
@@ -85,25 +85,26 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Start here!',
+              to: '/docs/hello',
             },
+            
           ],
         },
         {
-          title: 'Community',
+          title: 'IEEE at UCLA',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Website',
+              href: 'https://ieeebruins.com/',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/Vk3cmf9Rmx',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Instagram',
+              href: 'https://www.instagram.com/uclaieee/?hl=en',
             },
           ],
         },
@@ -111,17 +112,21 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'Find Prem',
+              to: 'https://www.linkedin.com/in/prem-giridhar/',
+            },
+            {
+              label: 'Find Claire',
+              to: 'https://www.linkedin.com/in/claire-huang-7469091b7/',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/amidthestars/DAVelopers-Catalog',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} DAV, IEEE at UCLA. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.dracula,

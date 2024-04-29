@@ -19,9 +19,11 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading> */}
         <p className="hero__subtitle">
-          {
-          "Hello! Welcome to the DAV IP Catalog. Here, you’ll find modules designed by past DAV students for a variety of applications. Any module published on this website is available to you to use for your own DAV capstone or any other Verilog project. Happy coding :-)"
-          }</p>
+          Hello! Welcome to the
+            <span style={{fontWeight: 'bold', color: '#F5CF48'}}> DAV IP Catalog. </span>
+          Here, you’ll find modules designed by past DAV students for a variety of applications. Any module published on this website is available to you to use for your own DAV capstone or any other Verilog project. Happy coding :-)
+          
+          </p>
         {/* <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
