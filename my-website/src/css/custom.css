@@ -39,3 +39,15 @@ body {
   /* color: #ffffff; */
   --docusaurus-highlighted-code-line-bg: #000000;
 }
+
+.navbar {
+  background-color: #1b1b33;
+  box-shadow: var(--ifm-navbar-shadow);
+  display: flex;
+  height: 2em;
+  padding: var(--ifm-navbar-padding-vertical)
+    var(--ifm-navbar-padding-horizontal);
+  font-family: "Recoleta-Bold", sans-serif;
+  font-size: 3em;
+  letter-spacing: 0.05em;
+}

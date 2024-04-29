@@ -3,6 +3,7 @@
   flex-flow: row;
   align-items: center;
   justify-content: space-around;
+  /* padding-top: 0rem; */
   padding: 3rem 3%;
   width: 100%;
   box-sizing: border-box;
