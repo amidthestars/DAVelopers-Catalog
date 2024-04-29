@@ -113,11 +113,11 @@ const config: Config = {
           items: [
             {
               label: 'Find Prem',
-              to: 'https://www.linkedin.com/in/prem-giridhar/',
+              href: 'https://www.linkedin.com/in/prem-giridhar/',
             },
             {
               label: 'Find Claire',
-              to: 'https://www.linkedin.com/in/claire-huang-7469091b7/',
+              href: 'https://www.linkedin.com/in/claire-huang-7469091b7/',
             },
             {
               label: 'GitHub',
