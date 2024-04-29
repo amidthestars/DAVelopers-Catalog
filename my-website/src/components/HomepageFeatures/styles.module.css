@@ -21,6 +21,7 @@
   overflow: hidden;
   padding: 44px;
   transition: 0.3s;
+  transform: rotateY(0deg);
 }
 
 .flip-card-front h2,
@@ -56,6 +57,7 @@
   height: 380px;
   width: 23%;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  transform: rotateY(0deg);
 }
 
 /* This container is needed to position the front and back side */
@@ -67,6 +69,7 @@
   transition: transform 0.8s;
   transform-style: preserve-3d;
   box-sizing: border-box;
+  transform: rotateY(0deg);
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
