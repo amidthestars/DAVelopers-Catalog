@@ -9,5 +9,10 @@ jobs:
         working-directory: ./my-website
     steps:
       - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+      - name: Install dependencies
+        run: npm install
       - name: Deploy app
-        run: GIT_USER=amidthestars yarn deploy
+        run: GIT_USER=amidthestars npm run deploy
