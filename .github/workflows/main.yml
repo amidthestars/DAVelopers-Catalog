@@ -1,0 +1,9 @@
+name: main-workflow
+on: push
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Deploy app
+        run: GIT_USER=amidthestars yarn deploy
