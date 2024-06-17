@@ -8,5 +8,6 @@ jobs:
       run:
         working-directory: ./my-website
     steps:
+      - uses: actions/checkout@v3
       - name: Deploy app
         run: GIT_USER=amidthestars yarn deploy
