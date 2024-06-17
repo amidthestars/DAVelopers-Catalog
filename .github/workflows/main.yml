@@ -4,8 +4,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
+    defaults:
+      run:
+        working-directory: ./my-website
     steps:
       - name: Deploy app
-        run: |
-          ls
-          GIT_USER=amidthestars yarn deploy
+        run: GIT_USER=amidthestars yarn deploy
