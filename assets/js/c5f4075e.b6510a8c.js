@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[2620],{1424:e=>{e.exports=JSON.parse('{"label":"hola","permalink":"/DAVelopers-Catalog/blog/tags/hola","allTagsPath":"/DAVelopers-Catalog/blog/tags","count":1,"unlisted":false}')}}]);
