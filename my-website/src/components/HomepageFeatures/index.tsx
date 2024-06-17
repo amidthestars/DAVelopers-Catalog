@@ -11,7 +11,7 @@ const cardList: CardOptions[] = [
     links: [
       {
         text: 'Hamming Window',
-        url: '/docs/signal_processing/hamming_window',
+        url: '/DAVelopers-Catalog/docs/signal_processing/hamming_window',
       }
     ]
   },
@@ -22,15 +22,15 @@ const cardList: CardOptions[] = [
     links: [
       {
         text: 'Donkey Kong Bongos',
-        url: '/docs/peripherals/donkey_kong_bongos',
+        url: '/DAVelopers-Catalog/docs/peripherals/donkey_kong_bongos',
       },
       {
         text: 'NES Controller',
-        url: '/docs/peripherals/nes_controller',
+        url: '/DAVelopers-Catalog/docs/peripherals/nes_controller',
       },
       {
         text: 'Wii Nunchuck',
-        url: '/docs/peripherals/wii_nunchuck',
+        url: '/DAVelopers-Catalog/docs/peripherals/wii_nunchuck',
       },
     ]
   },
@@ -41,19 +41,19 @@ const cardList: CardOptions[] = [
     links: [
       {
         text: 'Ping-Pong RAM',
-        url: '/docs/graphics/ping_pong_ram',
+        url: '/DAVelopers-Catalog/docs/graphics/ping_pong_ram',
       },
       {
         text: 'Update-Only Graphics Generator',
-        url: '/docs/graphics/update_only_graphics_generator',
+        url: '/DAVelopers-Catalog/docs/graphics/update_only_graphics_generator',
       },
       {
         text: 'SDRAM Controller',
-        url: '/docs/graphics/sdram_controller',
+        url: '/DAVelopers-Catalog/docs/graphics/sdram_controller',
       },
       {
         text: 'Color Composition',
-        url: '/docs/graphics/color_composition',
+        url: '/DAVelopers-Catalog/docs/graphics/color_composition',
       }
     ]
   },
