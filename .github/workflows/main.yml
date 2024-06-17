@@ -6,4 +6,4 @@ jobs:
     if: github.ref == 'refs/heads/main'
     steps:
       - name: Deploy app
-        run: GIT_USER=amidthestars yarn deploy
+        run: cd my-website && GIT_USER=amidthestars yarn deploy
