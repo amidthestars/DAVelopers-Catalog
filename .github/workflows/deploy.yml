@@ -9,6 +9,9 @@ jobs:
   build:
     name: Build Docusaurus
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./my-website
     steps:
       - uses: actions/checkout@v4
         with:
@@ -31,7 +34,6 @@ jobs:
   deploy:
     name: Deploy to GitHub Pages
     needs: build
-
     # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
     permissions:
       pages: write # to deploy to Pages
@@ -41,8 +43,10 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./my-website
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
